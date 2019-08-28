@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MovieKita/precache-manifest.a719c682c559b1f2856183947cd6b181.js"
+  "/MovieKita/precache-manifest.80a8fc21a13e838389cc5c408dbdf64d.js"
 );
 
 self.addEventListener('message', (event) => {

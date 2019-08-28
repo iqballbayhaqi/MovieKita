@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MovieKita/static/css/main.0ca18155.chunk.css",
-    "main.js": "/MovieKita/static/js/main.e5b34fe5.chunk.js",
-    "main.js.map": "/MovieKita/static/js/main.e5b34fe5.chunk.js.map",
+    "main.js": "/MovieKita/static/js/main.97e9a645.chunk.js",
+    "main.js.map": "/MovieKita/static/js/main.97e9a645.chunk.js.map",
     "runtime~main.js": "/MovieKita/static/js/runtime~main.c6ed320a.js",
     "runtime~main.js.map": "/MovieKita/static/js/runtime~main.c6ed320a.js.map",
     "static/css/2.8d1ca2ea.chunk.css": "/MovieKita/static/css/2.8d1ca2ea.chunk.css",
     "static/js/2.c83132be.chunk.js": "/MovieKita/static/js/2.c83132be.chunk.js",
     "static/js/2.c83132be.chunk.js.map": "/MovieKita/static/js/2.c83132be.chunk.js.map",
     "index.html": "/MovieKita/index.html",
-    "precache-manifest.a719c682c559b1f2856183947cd6b181.js": "/MovieKita/precache-manifest.a719c682c559b1f2856183947cd6b181.js",
+    "precache-manifest.80a8fc21a13e838389cc5c408dbdf64d.js": "/MovieKita/precache-manifest.80a8fc21a13e838389cc5c408dbdf64d.js",
     "service-worker.js": "/MovieKita/service-worker.js",
     "static/css/2.8d1ca2ea.chunk.css.map": "/MovieKita/static/css/2.8d1ca2ea.chunk.css.map",
     "static/css/main.0ca18155.chunk.css.map": "/MovieKita/static/css/main.0ca18155.chunk.css.map",

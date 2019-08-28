@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "658dfef588751686d2bfa76da55d5a9d",
+    "revision": "2dcde204aa0caf13d59f5c7e93621e81",
     "url": "/MovieKita/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MovieKita/static/css/2.8d1ca2ea.chunk.css"
   },
   {
-    "revision": "7037be0cd3dd44eac07f",
+    "revision": "65a86d42ab9a1cab62b0",
     "url": "/MovieKita/static/css/main.0ca18155.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MovieKita/static/js/2.c83132be.chunk.js"
   },
   {
-    "revision": "7037be0cd3dd44eac07f",
-    "url": "/MovieKita/static/js/main.e5b34fe5.chunk.js"
+    "revision": "65a86d42ab9a1cab62b0",
+    "url": "/MovieKita/static/js/main.97e9a645.chunk.js"
   },
   {
     "revision": "e1c24121fbeab30b97a4",
