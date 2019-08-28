@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import CardPost from '../Components/CardPost';
+import {apiHost} from '../Helpers/api';
 
 const Text = styled.p`
     font-size: 1.5em;
@@ -38,7 +39,7 @@ class Search extends React.Component {
     }
 
     fetchApi = (text, page = 1) => {
-        fetch(`http://www.omdbapi.com/?s=${text}&page=${page}&apikey=97f679b2`)
+        fetch(`${apiHost}?s=${text}&page=${page}&apikey=97f679b2`)
             .then(res => res.json())
             .then(res => {
                 if (res.Response === "True") {

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Slider from './Components/slider';
 import CardPost from './Components/CardPost';
+import {apiHost} from './Helpers/api';
 
 const Text = styled.p`
   font-size: 1.5em;
@@ -32,7 +33,7 @@ class home extends React.Component {
     }
 
     fetchApi = (page = 1 ) => {
-        fetch(`http://www.omdbapi.com/?s=man&y=2019&type=movie&page=${page}&apikey=97f679b2`)
+        fetch(`${apiHost}?s=man&y=2019&type=movie&page=${page}&apikey=97f679b2`)
             .then(res => res.json())
             .then(res => this.setState({movies: this.state.movies.concat(res.Search), error: null,totalresult: res.totalResults}))
     }

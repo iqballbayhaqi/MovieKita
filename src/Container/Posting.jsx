@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import styled from 'styled-components';
+import {apiHost} from '../Helpers/api';
 
 const Title = styled.h1`
     color: #ffffff;
@@ -35,7 +36,7 @@ class Posting extends React.Component {
     }
 
     fetchApi = (text) => {
-        fetch(`http://www.omdbapi.com/?i=${text}&apikey=97f679b2`)
+        fetch(`${apiHost}?i=${text}&apikey=97f679b2`)
         .then(res => res.json())
         .then(res => {
             if (res.Response === "True") {
