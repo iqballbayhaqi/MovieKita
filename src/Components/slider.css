@@ -1,0 +1,24 @@
+.container-slider {
+    width: 100%;
+    height: auto;
+}
+
+.slick-slide {
+    box-sizing: border-box;
+}
+
+.slick-slide img {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.slick-next {
+    right: 0;
+    display: none !important;
+}
+
+.slick-dots {
+    position: relative;
+    display: none !important;
+}
