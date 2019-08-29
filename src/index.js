@@ -12,6 +12,9 @@ import Header from './Components/header';
 
 const ForMargin = styled.div`
     margin-top: 80px;
+    @media (max-width: 640px){
+      margin-top: 101px;
+    }
 `;
 
 const AppRoute = () => {

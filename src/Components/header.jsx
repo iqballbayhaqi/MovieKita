@@ -13,6 +13,13 @@ const StyledHeader = styled.div`
     z-index: 999999999;
     top: 0;
     box-shadow: 3px 3px 6px #ffffff ;
+    @media (min-width: 320px) {
+        display: block;
+        text-align: center;
+    }
+    @media (min-width: 640px) {
+        display: flex;
+    }
 `;
 const BrandNname = styled.div`
     font-weight: bold;

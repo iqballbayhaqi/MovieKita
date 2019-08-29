@@ -12,10 +12,17 @@ const Title = styled.h1`
 const Head = styled.div`
     display: flex;
     padding-top: 30px;
+    @media (max-width: 640px){
+        display: block;
+        text-align: center;
+    }
 `;
 const Container = styled.div`
     margin-left: 30px;
     margin-top: 30px;
+    @media (max-width: 640px){
+        margin-left: 0;
+    }
 `;
 const TextContainer = styled.div`
     color: #ffffff;
