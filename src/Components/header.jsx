@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 import styled from 'styled-components';
-// import './header.css';
 
 const StyledHeader = styled.div`
     background-color: #20232a;
