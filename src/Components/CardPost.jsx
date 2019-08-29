@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
+import Image from './Image';
 
 const Container = styled.div`
     background: #20232a;
@@ -10,7 +11,7 @@ const SubContainer = styled.div`
     display: flex;
     height: 250px;
 `;
-const Poster = styled.img`
+const Poster = styled(Image)`
     width: 200px;
     height: 100%;
     @media (min-width: 320px){
@@ -45,13 +46,17 @@ const Desc = styled.p`
 `;
 
 class CardPost extends React.Component {
+    ImagePlaceholderB(event) {
+        console.log(event.target.src)
+        event.target.src = "/images/placeholderB.png"
+    }
     render() {
         return(
             <Container>
                 <SubContainer>
                     <div>
                         <Link to={`/posting/${this.props.id}`}>
-                        <Poster src={this.props.image} />
+                        <Poster src={this.props.image} onError={this.ImagePlaceholderB} />
                         </Link>
                     </div>
                     <Text>

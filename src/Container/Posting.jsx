@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import styled from 'styled-components';
 import {apiHost} from '../Helpers/api';
+import Image from '../Components/Image';
 
 const Title = styled.h1`
     color: #ffffff;
@@ -21,7 +22,7 @@ const Container = styled.div`
     margin-left: 30px;
     margin-top: 30px;
     @media (max-width: 640px){
-        margin-left: 0;
+        margin-left: 20;
     }
 `;
 const TextContainer = styled.div`
@@ -29,6 +30,10 @@ const TextContainer = styled.div`
 `;
 const Desc = styled.p`
     margin: 10px;
+`;
+const StyledImage = styled(Image)`
+    width: 300px;
+    height: 445px;
 `;
 
 
@@ -63,7 +68,7 @@ class Posting extends React.Component {
                 { movie !== null && (
                 <Container>
                     <Head>
-                        <img 
+                        <StyledImage 
                         src={movie.Poster}
                         alt="Poster" 
                         />
