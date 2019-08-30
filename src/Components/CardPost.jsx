@@ -47,7 +47,6 @@ const Desc = styled.p`
 
 class CardPost extends React.Component {
   ImagePlaceholderB(event) {
-    console.log(event.target.src);
     event.target.src = "/images/placeholderB.png";
   }
   render() {

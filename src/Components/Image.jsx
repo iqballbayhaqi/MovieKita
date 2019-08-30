@@ -2,11 +2,9 @@ import React from "react";
 
 class Image extends React.Component {
   ImagePlaceholder(event) {
-    console.log(event.target.src);
     event.target.src = "/images/placeholder.jpg";
   }
   ImagePlaceholderB(event) {
-    console.log(event.target.src);
     event.target.src = "/images/placeholderB.png";
   }
 
