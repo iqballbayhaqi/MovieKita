@@ -13,12 +13,22 @@
   box-sizing: border-box;
 }
 
-.slick-next {
-  right: 0;
-  display: none !important;
-}
-
 .slick-dots {
   position: relative;
-  display: none !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white
+}
+
+.slick-dots li button:before {
+  color: white
+}
+
+.slick-list {
+  overflow: visible;
+}
+
+.slick-prev {
+  z-index: 10;
 }

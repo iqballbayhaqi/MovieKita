@@ -5,13 +5,12 @@ import "./index.css";
 // import App from './App';
 import * as serviceWorker from "./serviceWorker";
 import styled from "styled-components";
-import Home from "./Home";
+import Home from "./Container2/Home";
 import Posting from "./Container/Posting";
 import Search from "./Container/Search";
 import Header from "./Components/header";
 
 const ForMargin = styled.div`
-  margin-top: 80px;
   @media (max-width: 640px) {
     margin-top: 101px;
   }
@@ -20,7 +19,7 @@ const ForMargin = styled.div`
 const AppRoute = () => {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <ForMargin></ForMargin>
       <Route path="/" exact component={Home} />
       <Route path="/posting/:id" component={Posting} />
