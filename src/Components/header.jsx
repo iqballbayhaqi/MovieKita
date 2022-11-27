@@ -12,7 +12,6 @@ const StyledHeader = styled.div`
   position: fixed;
   z-index: 999999999;
   top: 0;
-  box-shadow: 3px 3px 6px #ffffff;
   @media (min-width: 320px) {
     display: block;
     text-align: center;
@@ -51,7 +50,7 @@ const StyledLink = styled(Link)`
 
 class Header extends React.Component {
   state = {
-    input: ""
+    input: "",
   };
 
   onSearch = () => {
@@ -62,14 +61,23 @@ class Header extends React.Component {
     return (
       <StyledHeader>
         <BrandNname>
-          <StyledLink to="/">MovieKita</StyledLink>
+          <StyledLink to="/">
+            <span
+              style={{
+                fontSize: 40,
+              }}
+            >
+              M
+            </span>
+            oviekita
+          </StyledLink>
         </BrandNname>
         <ContainerSearch>
           <StyledInput
             type="text"
             placeholder="  Cari Judul Film"
-            onInput={event => this.setState({ input: event.target.value })}
-            onKeyPress={event => {
+            onInput={(event) => this.setState({ input: event.target.value })}
+            onKeyPress={(event) => {
               if (event.key === "Enter") {
                 this.onSearch();
               }

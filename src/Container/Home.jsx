@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Slider from "./Components/slider";
-import CardPost from "./Components/CardPost";
-import { apiHost } from "./Helpers/api";
+import Slider from "../Components/slider";
+import CardPost from "../Components/CardPost";
+import { apiHost } from "../Helpers/api";
 
 const Button = styled.button`
   background: #62dafb;
