@@ -39,5 +39,8 @@
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "prettier": "^1.18.2"
+  },
+  "resolutions": {
+    "tmp": "0.2.7"
   }
 }
